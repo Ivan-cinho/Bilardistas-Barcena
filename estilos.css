@@ -114,4 +114,32 @@ nav a{
     width: 75%;
 }
 /* footer */
-
+.seguinos{
+	background-color: black;
+}
+#seguinos {
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu_seguinos{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+.botones{
+	display: inline-block;
+	font-size: 6rem;
+	color: white;
+	width: 100%;
+	transition: all 0.5s;
+}
+section a:hover{
+	color: burlywood;
+	transform: scale(0.95);
+	transition: all 0.5s;
+}
